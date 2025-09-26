@@ -154,7 +154,7 @@
                         <td>{{ product.productId }}</td>
                         <td>{{ product.productName }}</td>
                         <td>{{ product.quantity }}</td>
-                        <td>Price</td>
+                        <td>{{ product.price}}</td>
                         <td>{{ product.warehouse.warehouseName }}</td>
                         <td class="actions">
                             <button class="btn btn-edit" (click)="editProduct(product)">Edit</button>
@@ -208,3 +208,4 @@
         </div>
     </div>
 </div>
+
